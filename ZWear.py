@@ -11,4 +11,4 @@ def resources(path):
     return send_file(f'templates/{path}')
 
 if __name__ == '__main__':
-    app.run(host='localhost', port=3000)
+    app.run()
