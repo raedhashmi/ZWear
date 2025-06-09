@@ -5,3 +5,26 @@ body {
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-color: #1E1E1E;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    align-items: center;
+}
+
+nav img {
+    width: 42px;
+    height: auto;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
