@@ -8,15 +8,50 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a href="#home"><img src="resources/zwear.png"></a>
-            <a href="#shop">Shop</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+        <nav class="navbar">
+            <a href="#home" class="logo"><img src="resources/favicon.ico" alt="ZWear Logo"></a>
+            <div class="menu-icon" id="menuIcon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
+        <div class="side-menu" id="sideMenu">
+            <button class="close-btn" id="closeBtn">&times;</button>
+            <div class="side-menu-upper">
+                <a href="#regular-fit">Regular Fit Tees</a>
+                <a href="#oversized">Oversized Tees</a>
+                <a href="#hoodies">Hoodies</a>
+                <a href="#sweatshirts">Sweatshirts</a>
+            </div>
+            <div class="side-menu-lower">
+                <a href="#baggy">Baggy Pants</a>
+                <a href="#cargo">Cargo Pants</a>
+                <a href="#straight-fit">Straight Fit Pants</a>
+                <a href="#skinny">Skinny Pants</a>
+            </div>
+        </div>
     </header>
     <main>
-        
+        <section class="products">
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=400&q=80" alt="Regular Fit Tee">
+                <h2>Regular Fit Tee</h2>
+                <div class="price">
+                    <span class="original">2000</span>
+                    <span class="discounted">1700</span>
+                </div>
+            </article>
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80" alt="Oversized Tee">
+                <h2>Oversized Tee</h2>
+                <div class="price">
+                    <span class="original">2200</span>
+                    <span class="discounted">1800</span>
+                </div>
+            </article>
+        </section>
     </main>
+    <script src="resources/script.js"></script>
 </body>
 </html>
